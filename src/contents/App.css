@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+.top-section{
+  background-color: rgba(2,0,36,1);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iconsNet{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+.top-hall{
+  height: 700px;
+  transition: background 0.3s ease;
+  background-size: 400% 400%;
+  animation: gradientAnim 5s ease infinite;
+}
+@keyframes gradientAnim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.top-hall.active {
+ &.mixed-1 {
+    background: linear-gradient(-45deg, rgba(2,0,36,1), rgb(34, 167, 240));
+    background-size: 125% 125%;
+ 
+  }
+
+  &.mixed-2 {
+    
+background: linear-gradient(-45deg, rgba(2,0,36,1), rgb(4, 147, 114));
+background-size: 125% 125%;
+ 
+}
+
+  &.mixed-3 {
+    
+background: linear-gradient(-45deg, rgba(2,0,36,1), rgb(142, 68, 173));
+background-size: 125% 125%;
+  
+}
+  &.mixed-4 {
+    
+background: linear-gradient(-45deg, rgba(2,0,36,1), rgb(227, 100, 20));
+background-size: 125% 125%;
+  
+}
+  &.mixed-5 {
+    
+background: linear-gradient(-45deg, rgba(2,0,36,1), rgb(195, 39, 43));
+background-size: 125% 125%;
+  
+}}
+  
+.option{
+  border: none;
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.highlight {
+  position: absolute;
+  z-index: 1;
+  border-bottom: 2px solid lightblue; /*cor do contorno*/
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.highlight.active {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  
+  /* Adapte as condições conforme necessário */
+  &.border-1 {
+    border-bottom-color: rgb(34, 167, 240);
+  }
+
+  &.border-2 {
+    border-bottom-color: rgb(4, 147, 114);
+    
+  }
+
+  &.border-3 {
+    border-bottom-color: rgb(142, 68, 173);
+  }
+  &.border-4 {
+    border-bottom-color: rgb(227, 100, 20);
+    
+  }
+  &.border-5 {
+    border-bottom-color: rgb(195, 39, 43);
+    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

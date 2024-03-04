@@ -68,12 +68,12 @@ export default function ContentOne() {
         <div className='allCont' data-aos="fade-up">
           <div className='highlightDiv'>
             <div className='imgDiv' style={{ display: "flex", flexDirection: "row" }}>
-              <img className='highlightImg' src={fisk} ></img>
-              <img className='highlightImg' src={obmep} ></img>
+              <img className='highlightImg' style={{height: '40vh'}} src={fisk} ></img>
+              <img className='highlightImg' style={{height: '40vh'}} src={obmep} ></img>
             </div>
             <div style={{ display: "flex", flexDirection: "row" }}>
-              <img className='highlightImg' src={usp} ></img>
-              <img className='highlightImg' src={pp} ></img>
+              <img className='highlightImg' style={{height: '40vh'}} src={usp} ></img>
+              <img className='highlightImg' style={{height: '40vh'}} src={pp} ></img>
             </div>
           </div>
 

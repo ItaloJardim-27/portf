@@ -14,7 +14,7 @@ export default  function HallTwo() {
     return(
       <div className='allHall' style={{height:"100%", width: "100%", display: "flex"} } data-aos="fade-up" data-aos-duration="2000">
         <div style={{display: 'flex', flex:"0.4", alignItems:'center', justifyContent: 'center'}}>
-        <img className='reference' src={game} style={{height:"30vh", borderRadius:"50%", marginLeft: "10%"}}/>
+        <img className='reference' src={game} style={{height:"50vh", borderRadius:"50%", marginLeft: "10%"}}/>
         </div>
         <div style={{display: 'flex', flexDirection: 'column', flex: "0.6",justifyContent: 'center'}}>
           <h1 className='title' style={{fontSize: '40px', color: 'white', textAlign: 'center', margin: '2vh', fontWeight: "light", marginRight: '0%'}}>O Conto de Sten Lodbrook:<br></br> o colar de Morgana</h1>

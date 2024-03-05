@@ -145,7 +145,6 @@ background-size: 125% 125%;
   flex-direction: row; 
   background-color: rgba(2,0,36,1);
   width: 100%; 
-  margin: 0 auto;
 }
 
   .bottomIcon{
@@ -153,7 +152,8 @@ background-size: 125% 125%;
     flex-direction: row; 
     justify-content: center; 
     align-items: center; 
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   .bottomParagraph{
     font-size: 20px; 
@@ -174,7 +174,7 @@ background-size: 125% 125%;
     margin-left: 50px; 
     text-align: center;
   }
-  @media (max-width: 1050px){
+  @media (max-width: 1100px){
     .contactsDiv{
       padding: 10px;
       margin-left: 0;
@@ -211,8 +211,8 @@ background-size: 125% 125%;
     color: white;
   }
   .iconsNet{
-    height: 6vh;
-    width: 6vw;
-    margin: 20px;
+    height: 4vh;
+    width: 4vw;
+    margin: 2vh 2vw;
   }
 }

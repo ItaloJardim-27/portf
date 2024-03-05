@@ -34,8 +34,8 @@ export default
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
 
-            <div style={{ width: "100%", alignItems: "center", justifyContent: "center", textAlign: "center", marginRight: "10px" }}>
-              <h1 className='title'>O livro</h1>
+            <div style={{ width: "100%", marginRight: "10px" }}>
+              <h1 className='contTitle'>O livro</h1>
             </div>
             <div style={{ width: "90%", margin: "0 auto" }}>
               <p className='introduction'>Desde pequeno o atributo que mais gosto de aproveitar é a criatividade, principalmente no âmbito da fantasia. Portanto, aos nove anos de idade comecei a pensar numa história de um mundo fantástico e, com diversas inspirações que foram surgindo ao longo do caminho,
@@ -52,7 +52,7 @@ export default
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", width: "90%", margin: "0 auto" }}>
-            <h1 className='title' style={{ textAlign: 'center' }}>O jogo</h1>
+            <h1 className='contTitle Game' >O jogo</h1>
             <p className='introduction'>{"Todavia, não era um livro que sempre imaginei produzindo. Mas uma outra forma de arte, uma tão paupavel pelos olhos quanto a luz, tão sensível ao coração quanto um livro. Produção audiovisual! Cinema, televisão: videogame! Foi assim que, conhecendo a Unity, comecei a programar os primeiros passos do meu jogo, bem próximo de quando iniciei o livro. Encontrei-me debruçado à sorte ao descobrir que a linguagem da engine era C# (uma das únicas linguagens que eu de fato dominava). E posso dizer que poucos projetos me possibilitaram um salto qualitativo tão enorme no entender do campo da lógica do que a programação de um jogo."} </p>
 
           </div>

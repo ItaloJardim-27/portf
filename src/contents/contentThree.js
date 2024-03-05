@@ -32,7 +32,7 @@ export default
           <div style={{ display: "flex", flexDirection: "column" }}>
 
             <div style={{ width: "100%", alignItems: "center", justifyContent: "center", textAlign: "center", }}>
-              <h1 className='title'>Tagg App! Uma rede social feita por estudantes</h1>
+              <h1 className='contTitle'>Tagg App! Uma rede social feita por estudantes</h1>
             </div>
             <div style={{ width: "90%", margin: "0 auto" }}>
               <p className='introduction'>O Tagg App não é uma rede social como qualquer outra, ela é muito mais do que isso! Com a nossa rede, é possível não só criar postagens, com fotos, vídeos, emotis, seguir seus amigos e comentar nos posts deles. Mas muito mais do que isso!

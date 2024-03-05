@@ -36,7 +36,7 @@ export default
         <div style={{ display: "flex", flexDirection: "column" }}>
 
             <div style={{ width: "100%", alignItems: "center", justifyContent: "center", textAlign: "center", marginRight: "10px" }}>
-              <h1 className='title'>O caminho da música</h1>
+              <h1 className='contTitle'>O caminho da música</h1>
             </div>
             <div style={{ width: "90%", margin: "0 auto" }}>
               <p className='introduction'>Em 2022, comecei a procurar alguns aplicativos de música pela GoogleStore para aprender a compor temas para o meu jogo, estas que eram mais simples, hoje encontram um teor mais complexo. Não há uma diferença gritante, mas já sou capaz de misturar diferentes instrumentos e incluir samples de percussão, usando o FL Studio.</p>
@@ -45,7 +45,7 @@ export default
         </div>
         <div style={{ display: "flex", flexDirection: "column" }} data-aos="fade-up">
           <div style={{ padding: "15px", textAlign: 'center'}}>
-            <h1 className='title'>Conheça algumas das minhas composições</h1>
+            <h1 className='contTitle'>Conheça algumas das minhas composições</h1>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column" }}>
@@ -62,7 +62,7 @@ export default
             
             </div>
             
-            <div className='audioDiv'>
+            <div className='audioDiv last'>
               <ReactAudioPlayer
               src={musicThree}
               autoPlay = {false}

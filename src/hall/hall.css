@@ -3,7 +3,7 @@
 }
 .title{
     display: block;
-    font-size: 60px; 
+    font-size: 6vh; 
     color: white;
     text-align: center; 
     font-weight: light;
@@ -16,10 +16,10 @@
     margin-left: 10%;
 }
 .hallIntroduction{
-    font-size: 30px; 
+    font-size: 3vh; 
     color: white; 
     font-weight: lighter; 
-    padding-right: 10px;
+    padding-right: 2vw;
 }
 .divImageHall{
     display: flex; 
@@ -34,7 +34,7 @@
     justify-content: center;
 }
 .title{
-    margin-right: 210px;
+    margin-right: 12vw;
 }
 .hallIntroduction{
     text-align: justify;
@@ -67,12 +67,12 @@
         flex: 0.8;
     }
     .reference{
-        height: 30vh;
-        margin: 30px;
+        height: 20vh;
+        margin: 3vh 1.2vw;
     }
     .title{
         font-size: 6vh;
-        margin: 15px;
+        margin: 1.5vh 0.4vw;
         text-align: center;
     }
     .hallIntroduction{
@@ -84,10 +84,10 @@
 }
 @media (max-width: 400px){
     .hallIntroduction{
-        font-size: 4vh;
+        font-size: 2.2vh;
     }
     .title{
-        font-size: 7vh;
+        font-size: 4vh;
     }
     .divImageHall{
         flex: 0.1;

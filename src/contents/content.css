@@ -1,7 +1,7 @@
 .imgDiv{
-    width: 90%;
+    width: 100vw;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 3vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -9,28 +9,27 @@
 }
 
 .circlesFour{
-    width: 100%;
-    margin: 0 auto;
+    width: 93vw;
 }
 .circlesThree{
-    width: 100%;
+    width: 93vw;
     margin: 0 auto;
 }
 .circlesTwo{
-    width: 100%;
+    width: 93vw;
     margin: 0 auto;
 }
 .circlesOne{
-    width: 100%;
+    width: 93vw;
     margin: 0 auto;
 }
 .regularImg{
-    width: 100%;
+    width: 95%;
     height: 70vh;
     border-radius: 2%;
 }
 .contTitle{
-    font-size: 40px; 
+    font-size: 5vh; 
     color: black; 
     font-weight: light;
     margin-right: 0%;
@@ -38,17 +37,11 @@
     margin-left: 5vw;
 }
 
-.contTitleGame{
-    font-size: 40px; 
-    color: black; 
-    font-weight: light;
-    margin-right: 0%;
-}
 .introduction{
-    font-size: 26px; 
+    font-size: 3.6vh; 
     color: black; 
     font-weight: lighter; 
-    padding-right: 10px;
+    padding-right: 0.5vw;
 }
 .highlightDiv{
     width: 60%;
@@ -57,7 +50,7 @@
     flex-direction: row;
 }
 .highlightImg{
-    width: 60%;
+    width: 30vh;
     height: 30vh;
 }
 .highlightImg.a{
@@ -69,7 +62,7 @@
 
 .highlightImg.c{
     padding: 2vh 0;
-    padding-left: 5vw;
+    padding-left: 0vw;
 }
 
 .highlightImg.d{
@@ -79,7 +72,7 @@
 
 }
 .allCont{
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
 }
 .videoPort{
     width: 70%;
@@ -95,7 +88,7 @@
     align-items: center;
 }
 .btnTaggDiv{
-    padding: 100px;
+    padding: 10vh 2vw;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -103,10 +96,12 @@
 .audioDiv{
     display: flex;
     flex-direction: row;
-    padding: 15px;
-    padding-bottom: 50px;
+    padding: 5vh 0vw;
+    padding-bottom: 5vh;
     margin: 0 auto;
     width: 90%;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 1100px){
     .videoPort{
@@ -114,7 +109,11 @@
         height: 60vh;
     }
     .highlightImg{
-        height: 25vh;
+        width: 20vw;
+        height: 20vh;
+    }
+    .highlightDiv{
+        margin-left: 5.5vw;
     }
 
 }
@@ -138,7 +137,14 @@
     text-align: justify;
     }
     .highlightImg{
+        width: 20vw;
         height: 20vh;
+        padding: 0;
+    }
+    .highlightDiv{
+        align-items: left;
+        justify-content: left;
+        margin-left: 5vw;
     }
     
     .imgDiv{
@@ -146,16 +152,18 @@
         padding: 0;
     }
     .regularImg{
+        width: 100%;
         border-radius: 0;
     }
     .audioDiv{
         flex-direction: column;
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
+        padding: 2vh 0vw;
+        width: 5vw;
         padding-bottom: 0;
     }
     .audioDiv.last{
-        padding-bottom: 50px;
+        padding-bottom: 5vh;
     }
 }
 @media (max-width: 500px){
@@ -169,6 +177,7 @@
         font-size: 3vh;
     }
     .regularImg{
+        width: 100%;
         height: 40vh;
     }
 }

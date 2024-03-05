@@ -54,11 +54,11 @@ export default
               <ReactAudioPlayer
               src={musicOne}
               autoPlay = {false}
-              controls style={{height: "90px", width: "700px", margin: '10px'}}/>   
+              controls style={{height: "90px", width: "90vw", margin: '10px'}}/>   
                <ReactAudioPlayer
               src={musicTwo}
               autoPlay = {false}
-              controls style={{height: "90px", width: "700px", margin: '10px'}}/>   
+              controls style={{height: "90px", width: "90vw", margin: '10px'}}/>   
             
             </div>
             
@@ -66,11 +66,11 @@ export default
               <ReactAudioPlayer
               src={musicThree}
               autoPlay = {false}
-              controls style={{height: "90px", width: "700px", margin: '10px'}}/>   
+              controls style={{height: "90px", width: "90vw", margin: '10px'}}/>   
                <ReactAudioPlayer
               src={musicFour}
               autoPlay = {false}
-              controls style={{height: "90px", width: "700px", margin: '10px'}}/>   
+              controls style={{height: "90px", width: "90vw", margin: '10px'}}/>   
             
             </div>
           </div>

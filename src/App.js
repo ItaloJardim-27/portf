@@ -165,7 +165,7 @@ function App() {
 
       <div className='allBottom' >
         <div className='contactsDiv' >
-          <h1 className='bottomH1' >Contatos</h1>
+          <h1 className='bottomH1' style={{color: 'white'}} >Contatos</h1>
           <p className='bottomParagraph' >+55 11 96070-7737</p>
           <p className='bottomParagraph' >italojd2097@gmail.com</p>
           <p className='bottomParagraph' >italojd2097@outlook.com</p>

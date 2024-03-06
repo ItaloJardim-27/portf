@@ -9,18 +9,18 @@
 }
 
 .circlesFour{
-    width: 93vw;
+    width: 87vw;
 }
 .circlesThree{
-    width: 93vw;
+    width: 87vw;
     margin: 0 auto;
 }
 .circlesTwo{
-    width: 93vw;
+    width: 87vw;
     margin: 0 auto;
 }
 .circlesOne{
-    width: 93vw;
+    width: 87vw;
     margin: 0 auto;
 }
 .regularImg{
@@ -146,7 +146,9 @@
         justify-content: left;
         margin-left: 5vw;
     }
-    
+    .videoPort{
+        height: 40vh;
+    }
     .imgDiv{
         width: 100%;
         padding: 0;

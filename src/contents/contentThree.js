@@ -28,7 +28,7 @@ export default
         </ul>
         <div className='allCont' data-aos="fade-up">
           <div className='imgDiv'>
-            <video  className='videoPort' src={taggvid} width="800" height="550" controls="controls" autoplay="false" /></div>
+            <video  className='videoPort' src={taggvid}  controls="controls" autoplay="false" /></div>
           <div style={{ display: "flex", flexDirection: "column" }}>
 
             <div style={{ width: "100%", alignItems: "center", justifyContent: "center", textAlign: "center", }}>

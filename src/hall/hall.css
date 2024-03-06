@@ -81,6 +81,9 @@
         font-size: 3vh;
         text-align: center;
     }
+    .videoPort{
+        height: 5vh;
+    }
 }
 @media (max-width: 400px){
     .hallIntroduction{
